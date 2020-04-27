@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.pg{
+    width: 100%;
+    min-height: 100vh;
+}
+:root{
+    --primary-color: #198484;
+    --secondary-color: #353535;
+    --alternative-color: #E6DB3E;
+}
+
+@font-face{
+    font-family: Raleway-bold;
+    src: url(/src/fonts/Raleway/Raleway-Bold.ttf);
+}
+@font-face{
+    font-family: Raleway-semibold;
+    src: url(/src/fonts/Raleway/Raleway-SemiBold.ttf);
+}
+@font-face{
+    font-family: Raleway-medium;
+    src: url(/src/fonts/Raleway/Raleway-Medium.ttf);
+}
+@font-face{
+    font-family: Raleway-medium-italic;
+    src: url(/src/fonts/Raleway/Raleway-MediumItalic.ttf);
+}
+@font-face{
+    font-family: Raleway-thin;
+    src: url(/src/fonts/Raleway/Raleway-Thin.ttf);
+}
+@font-face{
+    font-family: Raleway-thin-italic;
+    src: url(/src/fonts/Raleway/Raleway-ThinItalic.ttf);
+}
+
+@font-face{
+    font-family: Roboto-bold;
+    src: url(/src/fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face{
+    font-family: Roboto-medium;
+    src: url(/src/fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family: Roboto-thin;
+    src: url(/src/fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: Roboto-regular;
+    src: url(/src/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.amarillo{
+    color: var(--alternative-color);
+}
+.plomo{
+    color: var(--secondary-color);
+}
+.verde{
+    color: var(--primary-color);
+}
+
+.ralewaymediumitalic{
+    font-family: Raleway-medium-italic;
+}
+
+#inicio{
+    background-color: rgba(0, 0, 0, 0.692);
+    background-image: url(/src/img/edu-online.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+}
+h1{
+    color: white;
+    font-family: Raleway-medium;
+    margin: 40vh 0px 0px 5%;
+    width: 40%;
+    font-size: 52px;
+    text-shadow: rgba(0, 0, 0, 0.247) 0px 0px 10px ;
+}
+h3{
+    font-family: Quicksand;
+    font-weight:300 ;
+    font-size: 24px;
+    color: white;
+    padding: 2vh 2%;
+    text-shadow: rgba(0, 0, 0, 0.247) 0px 0px 10px ;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.301);
+}
